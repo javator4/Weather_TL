@@ -12,8 +12,8 @@ public class Current {
 
     private int last_updated_epoch;
     private String last_updated;
-    private int temp_c;
-    private int temp_f;
+    private float temp_c;
+    private float temp_f;
     private int is_day;
     private float wind_mph;
     private float wind_kph;
@@ -27,7 +27,7 @@ public class Current {
     private int cloud;
     private float feelslike_c;
     private float feelslike_f;
-    private int vis_km;
+    private float vis_km;
     private int vis_miles;
     private int uv;
     private float gust_mph;
